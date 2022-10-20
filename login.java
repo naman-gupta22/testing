@@ -16,7 +16,7 @@ public class test {
 		driver.findElement(By.name("password")).sendKeys("naman@20138!");
 		driver.findElement(By.className("mat-button-wrapper")).click();
 		String at = driver.getTitle();
-		String et = "SpeakIn Grow";
+		String et = "lalala";
 		driver.close();
 		if(at.equalsIgnoreCase(et))
 		{
