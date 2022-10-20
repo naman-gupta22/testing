@@ -19,7 +19,7 @@ public class signup {
 		driver.findElement(By.xpath("//*[@id=\"signup-form\"]/form/div/div[2]/div[5]/div[1]/input")).sendKeys("Test#12345");
 		driver.findElement(By.className("mat-button-wrapper")).click();
 		String at = driver.getTitle();
-		String et = "nothing";
+		String et = "Speakin Grow";
 		driver.close();
 		if(at.equals(et))
 		{
